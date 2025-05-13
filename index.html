@@ -51,7 +51,7 @@
         dati.componenti.push({ nome: nomi[i], ruolo: ruoli[i] });
       }
 
-      fetch("https://script.google.com/macros/s/AKfycbyXOksO-mQjAMHU2udLJ2zq-MynZjkDmAF0anNRPVbYpzzT5g9QwlWrF6Xj3rePJnnw7Q/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbyXOksO-mQjAMHU2udLJ2zq-MynZjkDmAF0anNRPVbYpzzT5g9QwlWrF6Xj3rePJnnw7Q/exec", {
         method: "POST",
         body: JSON.stringify(dati),
         headers: {
